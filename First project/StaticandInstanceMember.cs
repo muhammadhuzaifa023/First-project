@@ -13,6 +13,14 @@ namespace First_project
         // c-sharp may 
         // instance member haii ku ka essay phalay static nh lagha hoya int rollno
         public int rollNo;
+        public string FirstName;
+        public string Description;
+        public string LastName;
+        public static string schoolname = "S.M.Public Academy"; // yaa change nh hoosakta ku ka Ya static memnber haii
+        // chaiya static methods hoo ya phir static members hoo unkoo hum class ka name say call kerwatay haii
+
+
+
     }
      class StaticandInstanceMember
 
@@ -30,7 +38,9 @@ namespace First_project
             Stude Saad = new Stude();
             Saad.rollNo = 2;
             Console.WriteLine(Ali.rollNo+ " " + Saad.rollNo);
+            Console.WriteLine(Stude.schoolname);
 
         }
+
     }
 }
