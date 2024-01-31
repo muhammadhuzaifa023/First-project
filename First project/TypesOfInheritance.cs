@@ -29,7 +29,7 @@ namespace First_project
     }
 
     // Class for Hierarchical Inheritance
-    class Dog : Animal
+    class Dogs : Animal
     {
         public void Bark()
         {
@@ -60,7 +60,7 @@ namespace First_project
         {
 
             // Single Inheritance
-            Dog dog = new Dog();
+            Dogs dog = new Dogs();
             dog.Eat();
             dog.Bark();
 
