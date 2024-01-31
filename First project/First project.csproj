@@ -6,7 +6,7 @@
     <RootNamespace>First_project</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>First_project.StaticClass</StartupObject>
+    <StartupObject>First_project.Inheritance</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
