@@ -6,7 +6,7 @@
     <RootNamespace>First_project</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>First_project.Inheritance</StartupObject>
+    <StartupObject>First_project.TypesOfInheritance</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
