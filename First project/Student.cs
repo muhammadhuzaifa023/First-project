@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace First_project
 {
-     class Student
+     class Students
     {
         int RollNo;
         string? Name;  // here ? mean we can assign null vaalue to it ( int? nullableInt = null; )
         int age;
         string? Standard;
 
-        public Student(int RollNo,string Name,int age,string Standard)
+        public Students(int RollNo,string Name,int age,string Standard)
         {
             this.RollNo = RollNo;
             this.Name = Name;
@@ -56,7 +56,7 @@ namespace First_project
 
         static void Main(string[] args)
         {
-            Student s = new Student(1, "Huzaifa", 34, "UGH");
+            Students s = new Students(1, "Huzaifa", 34, "UGH");
             //s.setRollNo(1,"Huzaifa",34,"UGH");
             //s.getRollNo();
 
