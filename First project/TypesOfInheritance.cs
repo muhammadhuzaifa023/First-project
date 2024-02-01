@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace First_project
 {
     // Base class for Single Inheritance
-    class Animal
+    class PersonDeatils
     {
         public void Eat()
         {
@@ -29,7 +29,7 @@ namespace First_project
     }
 
     // Class for Hierarchical Inheritance
-    class Dogs : Animal
+    class Dogs : PersonDeatils
     {
         public void Bark()
         {
@@ -37,7 +37,7 @@ namespace First_project
         }
     }
     // Class for Multilevel Inheritance
-    class Bird : Animal
+    class Bird : PersonDeatils
     {
         public void Fly()
         {
@@ -45,7 +45,7 @@ namespace First_project
         }
     }
     // Class combining features of both Animal and Car using Interface-Based Multiple Inheritance
-    class AnimalCar : Animal, IDriveable
+    class AnimalCar : PersonDeatils, IDriveable
     {
         public void Drive()
         {
