@@ -37,7 +37,8 @@ namespace First_project
             Dogs myDog = new Dogs("Canine", "Golden Retriever");
 
             // Accessing properties from both base and derived classes
-            Console.WriteLine($"Species: {myDog.Species}, Breed: {myDog.Breed}");
+            Console.WriteLine($"Breed: {myDog.Breed}, Species: {myDog.Species}");
+
         }
 
     }
